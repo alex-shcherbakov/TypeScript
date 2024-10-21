@@ -13,7 +13,8 @@
   },
   "scripts": {
     "lint": "eslint --fix .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
